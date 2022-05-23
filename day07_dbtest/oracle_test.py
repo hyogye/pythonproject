@@ -1,3 +1,4 @@
+# pip install cx_Oracle
 import cx_Oracle
 from sklearn.model_selection import cross_val_score
 
