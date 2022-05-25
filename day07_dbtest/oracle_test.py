@@ -1,4 +1,5 @@
 # pip install cx_Oracle
+# 오라클 db와 연동을 위한 라이브러리 설치
 import cx_Oracle
 from sklearn.model_selection import cross_val_score
 
@@ -12,5 +13,3 @@ for item in cursor:
     print(item[1],item[5])
 
 conn.close()
-
-
