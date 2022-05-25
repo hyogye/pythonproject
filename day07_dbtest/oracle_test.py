@@ -14,3 +14,6 @@ for item in cursor:
     print(item[1],item[5])
 
 conn.close()
+
+# C드라이브(cd c:) -> project(cd project) -> pythonproject(cd pythonproject) 불러오기
+# git pull origin main -> git add . -> git commit -m " " -> git push origin main
